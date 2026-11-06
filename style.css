@@ -1,0 +1,72 @@
+*{
+    margin 0;
+    padding 0;
+    box-sizing:border-box;
+    font-family: cursive;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(120deg,#000000,#13034f,#310dc2);
+    color:rgba(242, 239, 244, 0.701);
+    line-height: 1.6;
+}
+
+
+
+nav a{
+
+    
+    color: rgb(205, 163, 220);
+    text-align: center;
+    text-decoration: none;
+    padding: 18px;
+    font-weight: bold;
+    font size: height:15px width:5px ;
+
+}
+
+header{
+    
+    width:100%;
+    padding:20ox 8%;
+    display: flex;
+    align-items: center;
+    color: mediumslateblue;
+    justify-content: space-between;
+    
+    background:linear-gradient(90deg,#28177ebe,#3a25a5be,#4f39bbbe);
+    backdrop-filter: blur(10px);
+
+    position: sticky;
+    top:0;
+    z-index:1000;
+
+    border-bottom: 1px solid #1a0326;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+
+    background: linear-gradient(#110592,#1a0cb2,#0c074b);
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+}
+.hero {
+    text-align: center;
+    color: beige;
+    
+}
+.section-title{
+    color: rgb(251, 248, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font font-size: width:25px height:25px ;
+}
+
+footer{
+
+    text-align: center;
+    color: white;
+}
